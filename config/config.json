@@ -1,0 +1,20 @@
+{
+  "artist_id": 12297,
+  "artist_name": "Arctic Monkeys",
+  "album_blacklist": ["Favourite Worst Nightmare (Standard Version)"],
+  "spotify": {
+    "client_id": "",
+    "client_secret": ""
+  },
+  "genius": {
+    "section_headers": false,
+    "base_uri": "https://api.genius.com",
+    "client_token": ""
+  },
+  "mongodb": {
+    "database": "",
+    "username": "",
+    "password": "",
+    "server_uri": ""
+  }
+}

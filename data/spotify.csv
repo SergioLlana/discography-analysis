@@ -1,0 +1,71 @@
+index,id,name,track_number,uri,album,year,duration_s,acousticness,danceability,energy,key,tempo,time_signature,valence,mode
+0,2hmHlBM0kPBm17Y7nVIW9f,My Propeller,1,spotify:track:2hmHlBM0kPBm17Y7nVIW9f,Humbug,2009,205.74667,0.052,0.415,0.657,9.0,115.752,4.0,0.69,0.0
+1,6wVWJl64yoTzU27EI8ep20,Crying Lightning,2,spotify:track:6wVWJl64yoTzU27EI8ep20,Humbug,2009,224.82667,0.0148,0.498,0.885,4.0,106.719,4.0,0.67,0.0
+2,0pdp3VrR4WQaswf0GyT0Y0,Dangerous Animals,3,spotify:track:0pdp3VrR4WQaswf0GyT0Y0,Humbug,2009,210.66667,0.0129,0.34,0.922,3.0,125.363,4.0,0.532,1.0
+3,4dtP86vkhzwNXCFpCtizce,Secret Door,4,spotify:track:4dtP86vkhzwNXCFpCtizce,Humbug,2009,223.06667,0.0314,0.323,0.806,7.0,124.615,4.0,0.548,0.0
+4,3RHHXwyRtskFx87sX80xEy,Potion Approaching,5,spotify:track:3RHHXwyRtskFx87sX80xEy,Humbug,2009,212.13333,0.0062,0.421,0.758,4.0,103.659,4.0,0.767,0.0
+5,6EMhO2CuQZ3u7ZKDRuf560,Fire And The Thud,6,spotify:track:6EMhO2CuQZ3u7ZKDRuf560,Humbug,2009,237.53333,0.165,0.566,0.61,2.0,114.904,4.0,0.406,1.0
+6,5bsnLiT00hG37qd8p2jdVl,Cornerstone,7,spotify:track:5bsnLiT00hG37qd8p2jdVl,Humbug,2009,197.97333,0.00764,0.287,0.721,9.0,169.252,4.0,0.763,1.0
+7,3u16Clmxz7dJpnQWXXynok,Dance Little Liar,8,spotify:track:3u16Clmxz7dJpnQWXXynok,Humbug,2009,283.49333,0.0586,0.538,0.607,1.0,100.158,4.0,0.543,0.0
+8,45n7uujqwmMyBMjBu9SwRu,Pretty Visitors,9,spotify:track:45n7uujqwmMyBMjBu9SwRu,Humbug,2009,220.50667,0.0614,0.244,0.896,6.0,83.354,4.0,0.142,0.0
+9,4PDPn7HosIycoXeoeibFc5,The Jeweller's Hands,10,spotify:track:4PDPn7HosIycoXeoeibFc5,Humbug,2009,344.05333,0.137,0.51,0.8,0.0,96.935,4.0,0.391,0.0
+0,3rq5w4bQGigXOfdN30ATJt,Do I Wanna Know?,1,spotify:track:3rq5w4bQGigXOfdN30ATJt,AM,2013,272.3941,0.186,0.55,0.537,5.0,85.014,4.0,0.432,1.0
+1,29tzJGvqJPTAFs6LXmsHoA,R U Mine?,2,spotify:track:29tzJGvqJPTAFs6LXmsHoA,AM,2013,201.72639,0.00541,0.492,0.776,6.0,96.98,4.0,0.607,0.0
+2,0OTvJXmQPv7SKavoV6td75,One For The Road,3,spotify:track:0OTvJXmQPv7SKavoV6td75,AM,2013,206.05161,0.228,0.406,0.679,0.0,180.245,4.0,0.845,1.0
+3,4FSm0Ca6Hzd7Vx7TpSfcSy,Arabella,4,spotify:track:4FSm0Ca6Hzd7Vx7TpSfcSy,AM,2013,207.35664,0.0198,0.579,0.577,2.0,180.045,4.0,0.453,1.0
+4,15ssS4mEVrTkQyZ7evJUQD,I Want It All,5,spotify:track:15ssS4mEVrTkQyZ7evJUQD,AM,2013,185.40612,0.000668,0.504,0.821,5.0,131.008,4.0,0.302,1.0
+5,6xOGRfEr41CdiSc3ifLels,No. 1 Party Anthem,6,spotify:track:6xOGRfEr41CdiSc3ifLels,AM,2013,243.13188,0.358,0.509,0.685,7.0,114.959,4.0,0.594,1.0
+6,05eWvAS5Cxy4sHjlIDofyB,Mad Sounds,7,spotify:track:05eWvAS5Cxy4sHjlIDofyB,AM,2013,215.01156,0.291,0.53,0.476,5.0,80.018,4.0,0.453,1.0
+7,2qH2scqyN6z1OB8dK0Y95y,Fireside,8,spotify:track:2qH2scqyN6z1OB8dK0Y95y,AM,2013,181.04907,0.0179,0.534,0.95,5.0,100.012,4.0,0.684,1.0
+8,48q0vSHcJdhK3IiXH8C5WJ,Why'd You Only Call Me When You're High?,9,spotify:track:48q0vSHcJdhK3IiXH8C5WJ,AM,2013,161.1239,0.0383,0.691,0.64,2.0,92.03,4.0,0.785,1.0
+9,7DVNEcKN7bE50N6xQ74mh2,Snap Out Of It,10,spotify:track:7DVNEcKN7bE50N6xQ74mh2,AM,2013,193.03007,0.257,0.73,0.625,5.0,130.039,4.0,0.895,0.0
+10,56fZFRtOSMIMyVh0ZIF0AT,Knee Socks,11,spotify:track:56fZFRtOSMIMyVh0ZIF0AT,AM,2013,257.56345,0.124,0.665,0.542,11.0,97.978,4.0,0.592,0.0
+11,7a8GawTVgHZvBLQOh46he7,I Wanna Be Yours,12,spotify:track:7a8GawTVgHZvBLQOh46he7,AM,2013,183.95605,0.133,0.465,0.429,0.0,67.522,4.0,0.503,0.0
+0,3il0XLdvwDkRaHFGivS7Tg,Star Treatment,1,spotify:track:3il0XLdvwDkRaHFGivS7Tg,Tranquility Base Hotel & Casino,2018,354.64,0.243,0.581,0.767,7.0,120.07,4.0,0.673,0.0
+1,08pCo8SdsJEKy67hxTnQzT,One Point Perspective,2,spotify:track:08pCo8SdsJEKy67hxTnQzT,Tranquility Base Hotel & Casino,2018,208.64,0.057,0.714,0.585,8.0,77.104,4.0,0.842,1.0
+2,0A1P0xwlVlyFpuKPyjWnYr,American Sports,3,spotify:track:0A1P0xwlVlyFpuKPyjWnYr,Tranquility Base Hotel & Casino,2018,158.04,0.00169,0.372,0.865,7.0,176.689,3.0,0.594,0.0
+3,1d3xNugyNGvOQyyRBKaJ0o,Tranquility Base Hotel & Casino,4,spotify:track:1d3xNugyNGvOQyyRBKaJ0o,Tranquility Base Hotel & Casino,2018,212.09333,0.0411,0.584,0.835,9.0,142.2,4.0,0.781,0.0
+4,5mkzrlK2cwfTqAniViv8gH,Golden Trunks,5,spotify:track:5mkzrlK2cwfTqAniViv8gH,Tranquility Base Hotel & Casino,2018,173.62667,0.129,0.492,0.564,2.0,92.544,4.0,0.0896,1.0
+5,4JeTkHQcajdkhGwaGsaKMT,Four Out Of Five,6,spotify:track:4JeTkHQcajdkhGwaGsaKMT,Tranquility Base Hotel & Casino,2018,312.34667,0.0626,0.601,0.863,0.0,130.189,4.0,0.676,1.0
+6,7dWSVDMwoJXMqnG21AehRG,The World's First Ever Monster Truck Front Flip,7,spotify:track:7dWSVDMwoJXMqnG21AehRG,Tranquility Base Hotel & Casino,2018,180.01333,0.346,0.602,0.601,10.0,145.075,4.0,0.553,1.0
+7,5v0TxA50XIdt5nq7AUIiWX,Science Fiction,8,spotify:track:5v0TxA50XIdt5nq7AUIiWX,Tranquility Base Hotel & Casino,2018,185.90667,0.0295,0.542,0.766,7.0,88.062,4.0,0.643,1.0
+8,6PcQ7PU2WqdvUkCh3pQ4gJ,She Looks Like Fun,9,spotify:track:6PcQ7PU2WqdvUkCh3pQ4gJ,Tranquility Base Hotel & Casino,2018,182.56,0.00944,0.514,0.773,0.0,103.943,4.0,0.445,1.0
+9,5HP2b1mP2BVHrgRHBNqt18,Batphone,10,spotify:track:5HP2b1mP2BVHrgRHBNqt18,Tranquility Base Hotel & Casino,2018,271.61333,0.312,0.675,0.681,5.0,106.521,4.0,0.675,0.0
+10,5jHsdC8SIhIisTGf6UWc0f,The Ultracheese,11,spotify:track:5jHsdC8SIhIisTGf6UWc0f,Tranquility Base Hotel & Casino,2018,217.72,0.624,0.476,0.555,9.0,131.497,3.0,0.426,1.0
+0,7f9I5WdyXm5q1XqnSYgQZb,Brianstorm,1,spotify:track:7f9I5WdyXm5q1XqnSYgQZb,Favourite Worst Nightmare,2007,172.86667,8.15e-05,0.42,0.974,1.0,165.182,4.0,0.463,1.0
+1,5kxVyCgEUND7E2QKG7JmoF,Teddy Picker,2,spotify:track:5kxVyCgEUND7E2QKG7JmoF,Favourite Worst Nightmare,2007,165.0,0.000286,0.637,0.963,9.0,150.1,4.0,0.823,1.0
+2,5RrHzXKmwVd5BCq4UzyJPd,D is for Dangerous,3,spotify:track:5RrHzXKmwVd5BCq4UzyJPd,Favourite Worst Nightmare,2007,138.10667,1.09e-05,0.555,0.925,1.0,145.061,4.0,0.77,1.0
+3,0ftMOhVfFm5Wbs5sZdEtsC,Balaclava,4,spotify:track:0ftMOhVfFm5Wbs5sZdEtsC,Favourite Worst Nightmare,2007,171.22667,0.00133,0.414,0.811,11.0,137.617,4.0,0.762,0.0
+4,2x8evxqUlF0eRabbW2JBJd,Fluorescent Adolescent,5,spotify:track:2x8evxqUlF0eRabbW2JBJd,Favourite Worst Nightmare,2007,183.89333,0.00146,0.654,0.828,1.0,112.056,4.0,0.79,0.0
+5,71ytDkCnYc11VRiRCrhDHX,Only Ones Who Know,6,spotify:track:71ytDkCnYc11VRiRCrhDHX,Favourite Worst Nightmare,2007,184.76,0.902,0.29,0.399,7.0,128.37,5.0,0.0965,0.0
+6,2BqfIlpahcebJPeu1IUTEo,Do Me a Favour,7,spotify:track:2BqfIlpahcebJPeu1IUTEo,Favourite Worst Nightmare,2007,209.25333,0.00013,0.469,0.738,11.0,180.15,4.0,0.624,0.0
+7,0DKvcH4SCRdhVYTxStKx9h,This House is a Circus,8,spotify:track:0DKvcH4SCRdhVYTxStKx9h,Favourite Worst Nightmare,2007,191.68,1.81e-05,0.476,0.844,7.0,155.322,4.0,0.658,1.0
+8,0idZZsnM7nuSYanlpKTuwV,"If You Were There, Beware",9,spotify:track:0idZZsnM7nuSYanlpKTuwV,Favourite Worst Nightmare,2007,276.2,0.000938,0.328,0.805,4.0,135.546,4.0,0.264,0.0
+9,4N2yjWLIxZjOXDrCu2VlJe,The Bad Thing,10,spotify:track:4N2yjWLIxZjOXDrCu2VlJe,Favourite Worst Nightmare,2007,145.21333,0.00103,0.55,0.952,2.0,111.066,4.0,0.538,1.0
+10,5KGbRvZyVyKP2AEJMHErB4,Old Yellow Bricks,11,spotify:track:5KGbRvZyVyKP2AEJMHErB4,Favourite Worst Nightmare,2007,193.22667,0.000147,0.66,0.837,0.0,135.158,4.0,0.757,1.0
+11,0BxE4FqsDD1Ot4YuBXwAPp,505,12,spotify:track:0BxE4FqsDD1Ot4YuBXwAPp,Favourite Worst Nightmare,2007,253.58667,0.00287,0.526,0.866,0.0,140.266,4.0,0.248,1.0
+0,5eyTC5GZzpzlN7YRO9AoPf,The View From The Afternoon,1,spotify:track:5eyTC5GZzpzlN7YRO9AoPf,"Whatever People Say I Am, That's What I'm Not",2006,222.94667,0.00487,0.387,0.922,9.0,146.478,4.0,0.417,0.0
+1,3DQVgcqaP3iSMbaKsd57l5,I Bet You Look Good On The Dancefloor,2,spotify:track:3DQVgcqaP3iSMbaKsd57l5,"Whatever People Say I Am, That's What I'm Not",2006,173.68,0.00225,0.535,0.948,6.0,103.183,4.0,0.778,0.0
+2,7BuzJmV2h6eBbSDdRaDY7C,Fake Tales Of San Francisco,3,spotify:track:7BuzJmV2h6eBbSDdRaDY7C,"Whatever People Say I Am, That's What I'm Not",2006,177.94667,0.00998,0.454,0.778,9.0,127.158,4.0,0.704,1.0
+3,0hAMkY2kwdXPPDfQ1e3BmJ,Dancing Shoes,4,spotify:track:0hAMkY2kwdXPPDfQ1e3BmJ,"Whatever People Say I Am, That's What I'm Not",2006,141.13333,0.00328,0.522,0.889,1.0,144.499,4.0,0.852,1.0
+4,111SaDBbcHW0zedi4RBHDp,You Probably Couldn't See For The Lights But You Were Staring Straight At Me,5,spotify:track:111SaDBbcHW0zedi4RBHDp,"Whatever People Say I Am, That's What I'm Not",2006,130.81333,0.00384,0.58,0.972,11.0,105.492,4.0,0.926,0.0
+5,64a5XZCVDWwvC7gwPPCsH6,Still Take You Home,6,spotify:track:64a5XZCVDWwvC7gwPPCsH6,"Whatever People Say I Am, That's What I'm Not",2006,173.66667,0.000669,0.599,0.946,8.0,108.934,4.0,0.653,1.0
+6,4wMR4fRKMTyUJG6VAsmccv,Riot Van,7,spotify:track:4wMR4fRKMTyUJG6VAsmccv,"Whatever People Say I Am, That's What I'm Not",2006,134.93333,0.358,0.593,0.333,9.0,103.537,4.0,0.258,1.0
+7,56GFlp1dkt7dw56pQdTwqW,Red Light Indicates Doors Are Secured,8,spotify:track:56GFlp1dkt7dw56pQdTwqW,"Whatever People Say I Am, That's What I'm Not",2006,143.62667,0.00316,0.622,0.846,11.0,110.683,4.0,0.914,0.0
+8,2fyIS6GXMgUcSv4oejx63f,Mardy Bum,9,spotify:track:2fyIS6GXMgUcSv4oejx63f,"Whatever People Say I Am, That's What I'm Not",2006,175.44,0.0288,0.634,0.599,2.0,112.215,4.0,0.312,1.0
+9,6Slvi85s1hIaeykjvDe1xk,Perhaps Vampires Is A Bit Strong But…,10,spotify:track:6Slvi85s1hIaeykjvDe1xk,"Whatever People Say I Am, That's What I'm Not",2006,268.62667,0.000293,0.371,0.914,11.0,134.982,4.0,0.394,0.0
+10,2zzLRQ78kKfPTx8FJQCdC2,When The Sun Goes Down,11,spotify:track:2zzLRQ78kKfPTx8FJQCdC2,"Whatever People Say I Am, That's What I'm Not",2006,202.13333,0.0341,0.348,0.875,11.0,169.152,4.0,0.407,0.0
+11,2vQQfWTanvD99OeHLAoyhW,From The Ritz To The Rubble,12,spotify:track:2vQQfWTanvD99OeHLAoyhW,"Whatever People Say I Am, That's What I'm Not",2006,193.42667,0.00147,0.216,0.882,11.0,189.286,4.0,0.656,0.0
+12,0eDQj41kzBhMKQIkTt6OJR,A Certain Romance,13,spotify:track:0eDQj41kzBhMKQIkTt6OJR,"Whatever People Say I Am, That's What I'm Not",2006,331.2,0.000566,0.455,0.881,11.0,137.949,4.0,0.201,1.0
+0,5xw2cHVLw1rlDPp3cL9Zuv,She's Thunderstorms,1,spotify:track:5xw2cHVLw1rlDPp3cL9Zuv,Suck It and See,2011,234.92,0.000518,0.505,0.898,7.0,118.929,4.0,0.731,1.0
+1,7EUcOIbJSePmXGvAe7G79C,Black Treacle,2,spotify:track:7EUcOIbJSePmXGvAe7G79C,Suck It and See,2011,217.44,0.000821,0.343,0.89,7.0,100.061,4.0,0.525,1.0
+2,49HYB8tppaxOsbBfeozPxu,Brick By Brick,3,spotify:track:49HYB8tppaxOsbBfeozPxu,Suck It and See,2011,179.90667,0.00123,0.285,0.807,2.0,132.206,4.0,0.542,1.0
+3,52M1FvGd0AkoUwcHL2L8jv,The Hellcat Spangled Shalalala,4,spotify:track:52M1FvGd0AkoUwcHL2L8jv,Suck It and See,2011,180.37333,0.000793,0.449,0.872,11.0,130.22,4.0,0.788,1.0
+4,3czdA0j4iaLDJJCoT5D8iP,Don't Sit Down 'Cause I've Moved Your Chair,5,spotify:track:3czdA0j4iaLDJJCoT5D8iP,Suck It and See,2011,183.50667,0.0191,0.434,0.912,9.0,119.729,4.0,0.315,1.0
+5,0qfGWpvJGlp17wdTm19ioK,Library Pictures,6,spotify:track:0qfGWpvJGlp17wdTm19ioK,Suck It and See,2011,142.17333,0.000142,0.304,0.939,1.0,96.954,4.0,0.402,1.0
+6,7cRR82VFtvy3FeqIrjEeFy,All My Own Stunts,7,spotify:track:7cRR82VFtvy3FeqIrjEeFy,Suck It and See,2011,232.28,0.00135,0.511,0.943,2.0,127.283,4.0,0.531,1.0
+7,1bXLpqe49cqEpj88uPR4pu,Reckless Serenade,8,spotify:track:1bXLpqe49cqEpj88uPR4pu,Suck It and See,2011,162.74667,0.00037,0.585,0.694,2.0,127.966,4.0,0.785,1.0
+8,4Ai0ANRDYwx6mCD4Uty1WS,Piledriver Waltz,9,spotify:track:4Ai0ANRDYwx6mCD4Uty1WS,Suck It and See,2011,203.88,0.00724,0.443,0.865,4.0,110.008,4.0,0.474,1.0
+9,0S6CXA5LpRDX6b4akgrOot,Love is a Laserquest,10,spotify:track:0S6CXA5LpRDX6b4akgrOot,Suck It and See,2011,191.42667,0.00197,0.349,0.662,11.0,169.926,4.0,0.554,1.0
+10,0LxeKwg9t7HOnyfv4bTALT,Suck It and See,11,spotify:track:0LxeKwg9t7HOnyfv4bTALT,Suck It and See,2011,225.98667,0.00105,0.339,0.932,4.0,128.291,4.0,0.586,1.0
+11,2fgQ8COnxtEvaTcNbEtsUf,That's Where You're Wrong,12,spotify:track:2fgQ8COnxtEvaTcNbEtsUf,Suck It and See,2011,256.8,0.000679,0.481,0.883,4.0,135.937,4.0,0.46,1.0

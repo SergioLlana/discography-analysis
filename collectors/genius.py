@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
+import utils
 import json
 import re
 
@@ -47,7 +48,7 @@ class GeniusCollector:
             lyrics = re.sub('\n{2}', '\n', lyrics)
         return lyrics.strip('\n')
 
-    def collect(self, artist_id, store_csv=False):
+    def collect(self, artist_id, store_json=False):
         songs = [song for song in self._get_artist_songs(artist_id)
                  if song['primary_artist']['id'] == artist_id]
 
@@ -60,7 +61,7 @@ class GeniusCollector:
                                "pyongs_count", "lyrics_state", "path",
                                "song_art_image_thumbnail_url"], inplace=True)
 
-        if store_csv:
-            songs_df.to_csv("data/genius.csv", header=True, index=False,
-                            encoding="utf-8")
+        if store_json:
+            utils.write_json("data/genius.json", songs_df.to_dict("records"))
+
         return songs_df

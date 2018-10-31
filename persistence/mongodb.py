@@ -12,12 +12,12 @@ class MongoDBDriver:
         self._logger.debug("MongoDB driver initialized")
 
     def clean_db(self):
-        self._db.samples.delete_many({})
+        self._db.songs.delete_many({})
         self._logger.debug("Wipping out MongoDB")
 
     def add_discography(self, artist_name, df):
         df["artist"] = artist_name
-        self._db.samples.insert_many(df.to_dict("records"))
+        self._db.songs.insert(df.to_dict("records"))
 
     """
     def get_discography(self, artist_name):

@@ -16,9 +16,10 @@ def read_json(path):
     except Exception:
         return {}
 
-"""
-def parse_args(args):
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-t', '--time', dest='start_time')
-    return parser.parse_args(args)
-"""
+
+def write_json(path, data_dict):
+    try:
+        with open(path, 'w') as f:
+            json.dump(data_dict, f, indent=2)
+    except Exception:
+        pass

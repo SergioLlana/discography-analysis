@@ -1,6 +1,7 @@
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 import spotipy
+import utils
 
 
 class SpotifyCollector:
@@ -11,7 +12,7 @@ class SpotifyCollector:
                                            client_secret=secret)
         self._client = spotipy.Spotify(client_credentials_manager=manager)
 
-    def collect(self, artist_name, album_blacklist=[], store_csv=False):
+    def collect(self, artist_name, album_blacklist=[], store_json=False):
         query = "artist:" + artist_name
         query_result = self._client.search(q=query, type="artist")
         artist_id = query_result["artists"]["items"][0]["id"]
@@ -30,7 +31,7 @@ class SpotifyCollector:
             album_id = album_info["id"]
             df = pd.DataFrame(self._client.album_tracks(album_id)["items"])
             df["album"] = title
-            df["year"] = album_info["year"]
+            df["year"] = int(album_info["year"])
             group_df = pd.concat([group_df, df]) if group_df.shape[0] \
                        else pd.DataFrame(df)
 
@@ -54,8 +55,7 @@ class SpotifyCollector:
             group_df.at[idx, "valence"] = features["valence"]
             group_df.at[idx, "mode"] = features["mode"]
 
-        if store_csv:
-            group_df.to_csv("data/spotify.csv", header=True, index=False,
-                            encoding="utf-8")
+        if store_json:
+            utils.write_json("data/spotify.json", group_df.to_dict("records"))
 
         return group_df

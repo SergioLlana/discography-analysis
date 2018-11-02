@@ -1,5 +1,10 @@
 import argparse
 import json
+import re
+
+
+def simplify_str(str):
+    return re.sub(r'[^\w\s]','',str).lower()
 
 
 def read(path):

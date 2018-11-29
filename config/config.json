@@ -1,7 +1,7 @@
 {
-  "artist_id": 12297,
-  "artist_name": "Arctic Monkeys",
-  "album_blacklist": ["Favourite Worst Nightmare (Standard Version)"],
+  "artist_id": 0,
+  "artist_name": "",
+  "album_blacklist": [],
   "spotify": {
     "client_id": "",
     "client_secret": ""
@@ -16,5 +16,11 @@
     "username": "",
     "password": "",
     "server_uri": ""
+  },
+  "echords": {
+    "base_uri": "https://www.e-chords.com/chords/{0}/{1}"
+  },
+  "ultimate_guitar": {
+    "base_uri": "https://www.ultimate-guitar.com/search.php?title={0}&page=1&tab_type_group=text&app_name=ugt&order=myweight&rating%5B0%5D=4&rating%5B1%5D=5&type[]=Chords"
   }
 }

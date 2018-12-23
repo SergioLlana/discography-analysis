@@ -15,8 +15,6 @@ def main():
     genius_collector = GeniusCollector(config["genius"])
     spotify_collector = SpotifyCollector(config["spotify"])
 
-    # mongo_driver.clean_db()
-
     genius_df = genius_collector.collect(config["artist_id"], store_json=True)
     spotify_df = spotify_collector.collect(artist_name,
                                            config["album_blacklist"],
@@ -30,11 +28,13 @@ def main():
                   suffixes=("_spotify", "_genius")).drop(columns=["key_0",
                                                                   "title"])
     df = df.fillna("")
+    df["artist"] = artist_name
     df["chords"] = df.apply(lambda x: chord_collector.collect(artist_name,
                                                               x["name"]),
                             axis=1)
 
-    mongo_driver.add_discography(artist_name, df)
+    # mongo_driver.clean_db()
+    # mongo_driver.add_discography(artist_name, df)
     utils.write_json("data/data.json", df.to_dict("records"))
 
 

@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 import utils
-import json
 import re
 
 
@@ -65,3 +64,20 @@ class GeniusCollector:
             utils.write_json("data/genius.json", songs_df.to_dict("records"))
 
         return songs_df
+
+    def _get_song_url(self, song_title, artist_name):
+        path = "search"
+        params = {"q": song_title + " " + artist_name}
+        data = self._get(path, params=params)
+        if (len(data['response']['hits']) == 0):
+            return None
+        return data['response']['hits'][0]['result']['url']
+
+    def collect_song_lyrics(self, song_title, artist_name):
+        try:
+            song_url = self._get_song_url(song_title, artist_name)
+            if (song_url):
+                return self._scrape_lyrics(song_url)
+            return None
+        except Exception:
+            return None

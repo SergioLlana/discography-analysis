@@ -15,6 +15,10 @@ minor_distances = [
     ('Cm'), ('C#m', 'Dbm'), ('Dm'), ('D#m', 'Ebm'), ('Em'), ('Fm')
 ]
 
+flat_to_sharp = {
+    "D": "C", "E": "D", "G": "F", "A": "G", "B": "A"
+}
+
 keys = {
   "C": ["C", "Cmaj7", "Dm", "Dm7", "Em", "Em7", "F", "Fmaj7", "G", "G7", "Am", "Am7", "Bdim"],
   "C#": ["C#", "C#maj7", "D#m", "D#m7", "E#m", "E#m7", "F#", "F#maj7", "G#", "G#7", "A#m", "A#m7", "B#dim"],
@@ -48,6 +52,7 @@ keys = {
   "Fm": ["Ab", "Abmaj7", "Bbm", "Bbm7", "Cm", "Cm7", "C", "C7", "Db", "Dbmaj7", "Eb", "Eb7", "Fm", "Fm7", "Gdim"]
 }
 
+
 class ChordTransposer:
     def __init__(self, key="C", preference="#"):
         self.preference = 0 if preference == "#" else 1
@@ -74,6 +79,13 @@ class ChordTransposer:
         target_index = self._get_index(self.target_key)
         return target_index - source_index
 
+    def _flat_to_sharp(self, chord):
+        if len(chord) > 1 and chord[1] == "b":
+            root = chord[0]
+            return flat_to_sharp[root] + "#" + chord[2:]
+        else:
+            return chord
+
     def _transpose_chord(self, source_chord, direction):
         variation = ""
         for v in ["5", "6", "7", "7b5", "dim", "aug", "maj", "sus2",
@@ -84,7 +96,7 @@ class ChordTransposer:
 
         source_index = self._get_index(base_chord)
         new_base = self._get_key(source_index + direction, 'm' in base_chord)
-        return new_base + variation
+        return self._flat_to_sharp(new_base + variation)
 
     def transpose(self, chords):
         source_key = self._estimate_key(chords)

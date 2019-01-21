@@ -39,7 +39,7 @@ The result is a JSON file which contains a list of objects with the following fo
 }
 ```
 
-The code can be found in [data_retrieval.py](https://github.com/SergioLlana/discography-analysis/blob/master/data_retrieval.py) and in the __collector__ folder.
+The code can be found in [data_retrieval.py](https://github.com/SergioLlana/discography-analysis/blob/master/data_retrieval.py) and in the _collector_ folder.
 
 ## 2. Album Similarity based on Chord Progressions
 
@@ -72,15 +72,15 @@ This last method consisted on counting how many nodes and edges we must add/modi
 
 These are the results of method 1:
 
-<p align="center"><img src="https://raw.githubusercontent.com/SergioLlana/discography-analysis/master/docs/images/plot1.PNG" width="75%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/SergioLlana/discography-analysis/master/docs/images/plot1.png" width="75%"></p>
 
-It can be seen how albums from __Arctic Monkeys__ (e.g. __AM__ and __Favourite Worst Nightmare__) seem to be quite similar. The same happens between __You Could Have It So Much Better__ and __Franz Ferdinand__, both from __Franz Ferdinand__.
+It can be seen how albums from _Arctic Monkeys_ (e.g. _AM_ and _Favourite Worst Nightmare_) seem to be quite similar. The same happens between _You Could Have It So Much Better_ and _Franz Ferdinand_, both from _Franz Ferdinand_.
 
 These are the results of method 2:
 
-<p align="center"><img src="https://raw.githubusercontent.com/SergioLlana/discography-analysis/master/docs/images/plot2.PNG" width="75%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/SergioLlana/discography-analysis/master/docs/images/plot2.png" width="75%"></p>
 
-Albums by __Arctic Monkeys__ keep looking quite similar between them, however the ones by __Franz Ferdinand__ do not appear to be as similar as with the previous method. It is worth noting that albums by __The Last Shadow Puppets__ are more similar to the ones by __Arctic Monkeys__ than to the ones by __Franz Ferdinand__, specially with __Tranquility Base Hotel & Casino__ which was also pointed out by music critics when it was released last year. Recall that this two groups share the same songwriter.
+Albums by _Arctic Monkeys_ keep looking quite similar between them, however the ones by _Franz Ferdinand_ do not appear to be as similar as with the previous method. It is worth noting that albums by _The Last Shadow Puppets_ are more similar to the ones by _Arctic Monkeys_ than to the ones by _Franz Ferdinand_, specially with _Tranquility Base Hotel & Casino_ which was also pointed out by music critics when it was released last year. Recall that this two groups share the same songwriter.
 
 Note all insights should be interpreted with caution because of the amount of assumptions taken in the process and that we are only working with ”one musical dimension” by focusing on harmony. For further information, please read the [full report](https://github.com/SergioLlana/discography-analysis/blob/master/docs/Album%20Similarity%20based%20on%20Chord%20Progressions.pdf).
 
